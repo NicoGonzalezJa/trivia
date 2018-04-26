@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions</title>
+    <link rel="stylesheet" href="css/questions.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<div id="question1" class="hide absolute">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <p class="questions">Cuantas sedes tiene laboratoria en latioamerica?</p>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <input id="option1-1" type="radio" name="question1" value="2">
+            <label for="option1-1">2 Sucursales</label>
+        </li>
+        <li class="list-group-item">
+            <input id="option1-2" type="radio" name="question1" value="4">
+            <label for="option1-2">4 Sucursales</label>
+        </li>
+        <li class="list-group-item">
+            <input id="option1-3" type="radio" name="question1" value="6">
+            <label for="option1-3">6 Sucursales</label>
+        </li>
+    </ul>
+</div>
+
+
+
+
+<div id="question2" class="hide absolute">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <p class="questions">Lenguaje de prorgramacion que puede ser aplicado a un documento HTML y es usado para
+                crear interactividad dinamica en los sitios web - Fue inventando por Brendan Eich, cual es el nombre del lenguaje?</p>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <input id="option2-1" type="radio" name="question2" value="css">
+            <label for="option2-1">CSS</label>
+        </li>
+        <li class="list-group-item">
+            <input id="option2-2" type="radio" name="question2" value="sbl">
+            <label for="option2-2">Sublime</label>
+        </li>
+        <li class="list-group-item">
+            <input id="option2-3" type="radio" name="question2" value="js">
+            <label for="option2-3">Javascript</label>
+        </li>
+    </ul>
+</div>
+
+
+<div id="question3" class="hide absolute">
+    <p class="questions">Significa Cascading Style Sheets (en español: Hojas de estilo en cascada). Es un lenguaje
+        usado para definir y crear la presentacion de un documento escrito en HTML, cual es su nombre?</p>
+    <div class="option">
+        <label for="option3-1">PHP</label>
+        <input id="option3-1" type="radio" name="question3" value="php">
+        <label for="option3-2">CSS</label>
+        <input id="option3-2" type="radio" name="question3" value="css">
+        <label for="option3-3">JAVA</label>
+        <input id="option3-3" type="radio" name="question3" value="java">
+    </div>
+</div>
+<div id="question4" class="hide absolute">
+    <p class="questions">Nuestro programa termina con una hackaton de dura 36 horas y donde participan varias empresas,
+        cual es su nombre?</p>
+    <div class="option">
+        <label for="option4-1">Talent Party</label>
+        <input id="option4-1" type="radio" name="question4" value="tp">
+        <label for="option4-2">Talenthon</label>
+        <input id="option4-2" type="radio" name="question4" value="tho">
+        <label for="option4-3">Talent Fest</label>
+        <input id="option4-3" type="radio" name="question4" value="tf">
+    </div>
+</div>
+<div id="question5" class="hide absolute">
+    <p class="questions">Tiene por objetivo la creacion de productos que resuelvan necesidades concretas de los
+        usuarios finales consiguiendo la mayor satisfaccion y mejor experiencia de uso posible, a quien se refiere?</p>
+    <div class="option">
+        <label for="option5-1">UI Designer</label>
+        <input id="option5-1" type="radio" name="question5" value="ui">
+        <label for="option5-2">UX Designer</label>
+        <input id="option5-2" type="radio" name="question5" value="ux">
+        <label for="option5-3">Front End</label>
+        <input id="option5-3" type="radio" name="question5" value="fe">
+    </div>
+</div>
+
+</div>
+
+<div id="actionsButtons">
+    <button id="nextButton" onclick="next()">Next</button>
+    <!--<button id="backButton" onclick="back()">Back</button>-->
+</div>
+
+
+<div id="results" class="hide">
+    <p id="percent"></p>
+</div>
+
+<script type="application/javascript" src="js/questions.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.hide {
+    visibility: hidden;
+}
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2em;
+    background-color: #FFE949;
+    text-align: center;
+}
+
+.name{
+
+    border:solid;
+}
+
+.buttonQuestion{
+    border-radius: 10px;
+}
