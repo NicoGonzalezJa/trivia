@@ -46,6 +46,8 @@ function next() {
 
 }
 
+//Funcion deprecada, ya que es una trivia
+//TODO: verificar si es necesario en caso de validar preguntas en tiempo real.
 /*function back() {
     var sub = count - 1;
     checked = document.querySelector('input[name="question' + sub + '"]:checked');
